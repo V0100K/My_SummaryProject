@@ -64,9 +64,11 @@ const Logo = styled.h1
       left: 2rem;
       top: 2rem;
       z-index: 3;
-      
-      
-      @media only Screen and (max-width: 600px) {
+
+      @media only Screen and (max-width: 960px) {
+        font-size: 3em;
+      }
+      @media only Screen and (max-width: 730px) {
           font-size: 2em;
         }
        

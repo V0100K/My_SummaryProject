@@ -130,7 +130,7 @@ const SUMMARY = styled(NavLink)
       position: absolute;
       top: 52%;
       transform: rotate(90deg) translate(-50%, -50%);
-      right: calc(1rem + 2vw);
+      right: calc(1rem - 2vw);
       text-decoration: none;
       z-index: 1;
 
@@ -301,7 +301,6 @@ const Main = () => {
                 </BottomBar>
 
                 <WORK to='/work' click={+click}>
-
                     <motion.h2
                         initial={{
                             scale: 0,
@@ -322,9 +321,10 @@ const Main = () => {
                     </motion.h2>
                 </WORK>
 
-            </Container>
-            {click ? <Info click={click}/> : null}
+                {/*{click ? <Info click={click}/> : null}*/}
 
+            </Container>
+            {click ? <Info click={click} /> : null}
 
         </MainContainer>
     );
