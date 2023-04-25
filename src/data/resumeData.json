@@ -1,0 +1,96 @@
+{
+  "name": "Malyshko Vitaliy",
+  "title": "FRONT-END DEVELOPER",
+  "contacts": [
+    { "name": "+38 095 023c93 59", "link": "tel:+380950239359" },
+    { "name": "malyshko2001@gmail.com", "link": "mailto:malyshko2001@gmail.com" },
+    { "name": "Kyiv-Ukraine", "link": "https://www.google.com/maps/@50.4248697,30.545108,11.32z" },
+    { "name": "Portfolio page", "link": "https://example.com/portfolio" },
+    { "name": "GitHub/V0100K", "link": "https://github.com/V0100K" },
+    { "name": "Linkedin/vitaly-malyshko/", "link": "https://linkedin.com/in/vitaly-malyshko/" }
+  ],
+  "techSkills": [
+    "HTML5/CSS3/SASS",
+    "Responsive/Adaptive design",
+    "GIT",
+    "JavaScript",
+    "React",
+    "Redux",
+    "REST API"
+  ],
+  "softSkills": [
+    "Honest",
+    "Diligent and organized",
+    "Punctual",
+    "Team player"
+  ],
+  "additionalEducation": [
+    "IT School GoIT (Kyiv)",
+    "2021 - 2022 Full Stack Developer",
+    "IT School STEP (Nikopol)",
+    "2018 - 2018 HTML + CSS + Bootstrap"
+  ],
+  "languages": [
+    "English - Pre-Intermediate",
+    "Ukrainian - Native"
+  ],
+  "summary": "I’m looking for a junior position to get a proper background in web development and gain practical skills. I’ve gotten decent skills of HTML/CSS and basic knowledge of JS & React during the intensive full- time course (6 months, 60 hours per week). Also I've got skills in React Native by self-learning.",
+  "projectExperience": [
+    {
+      "name": "WEB STUDIO",
+      "link": "https://v0100k.github.io/goit-markup-hw-07/",
+      "description": "[HTML, CSS] A website with a responsive layout."
+    },
+    {
+      "name": "ICE CREAM",
+      "link": "https://v0100k.github.io/goit-html-css-project/",
+      "description": "[HTML, SASS, JS, Parcel] A website types of ice cream."
+    },
+    {
+      "name": "EVENT BOOSTER",
+      "link": "https://v0100k.github.io/goit-js-project/",
+      "description": "[HTML, SASS, JS, REST API, AJAX, Parcel] Application for selecting and booking tickets."
+    },
+    {
+      "name": "KAPUSTA",
+      "link": "https://react-project-money-book.netlify.app",
+      "description": "[React, SASS, Redux, Axios, Styled Components] Application for accounting expenses and income."
+    }
+  ],
+  "workExperience": [
+    {
+      "position": "PROJECT MANAGER / MEDICAL EQUIPMENT ENGINEER",
+      "company": "ММЕ",
+      "date": "03/2021 - 05/2021",
+      "responsibilities": [
+        "- Technical communication",
+        "- Commissioning and adjustment of oxygen generators."
+      ]
+    },
+    {
+      "position": "SALES MANAGER/DRAWING CONSTRUCTOR",
+      "company": "SarosDesign",
+      "date": "06/2020 – 02/2021",
+      "responsibilities": [
+        "- Production of working drawings of products",
+        "- Advice and assistance in choosing"
+      ]
+    },
+    {
+      "position": "DEPUTY HEAD OF GAS NETWORKS / CHIEF OF A POWER PLANT",
+      "company": "Thermal power plant",
+      "date": "01/2010 – 08/2019",
+      "responsibilities": [
+        "- Creation and control of work processes",
+        "- Maintaining documentation from the implementation of plans to tendering for procurement."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Mechanical engineering, degree of specialist engineer technologist",
+      "school": "NATIONAL METALLURGICAL ACADEMY OF UKRAINE",
+      "date": "09/2006 – 08/2010"
+    }
+  ]
+}
