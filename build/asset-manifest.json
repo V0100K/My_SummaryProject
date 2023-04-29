@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0510b79e.css",
+    "main.js": "/static/js/main.9970534d.js",
+    "static/media/u-said-it-v13-1167.mp3": "/static/media/u-said-it-v13-1167.949cee7ea4a6ad9499db.mp3",
+    "static/media/fxVE.gif": "/static/media/fxVE.67923237fff915773320.gif",
+    "static/media/Malyshko_Vitaliy_juntreFrontEnd.pdf": "/static/media/Malyshko_Vitaliy_juntreFrontEnd.130ad91d968a3f33fb79.pdf",
+    "static/media/Kapysta.png": "/static/media/Kapysta.cea6662c43489d8567ab.png",
+    "static/media/spaceman.png": "/static/media/spaceman.5ec7fcfa9a803ead726c.png",
+    "static/media/myPhoto.jpeg": "/static/media/myPhoto.b4015157bfe00e4d4c4a.jpeg",
+    "static/media/profile-img.png": "/static/media/profile-img.5179e446ac1a570ce69b.png",
+    "index.html": "/index.html",
+    "main.0510b79e.css.map": "/static/css/main.0510b79e.css.map",
+    "main.9970534d.js.map": "/static/js/main.9970534d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0510b79e.css",
+    "static/js/main.9970534d.js"
+  ]
+}

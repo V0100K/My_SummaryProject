@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Me from '../assets/Images/profile-img.png'
+import Me from '../assets/Images/photo_2023-04-29 12.14.00.png'
 import {motion} from 'framer-motion'  // библиотека анимаций
 
 const Box = styled(motion.div)
@@ -47,7 +47,7 @@ const SubBox = styled.div
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 0%);
-    width: 100%;
+    width: 65%;
     height: auto;
   }
 `
