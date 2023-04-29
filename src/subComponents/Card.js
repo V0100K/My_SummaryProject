@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from "styled-components";
 // import {Work} from "../data/WorkData";
-import {NavLink} from "react-router-dom";
+// import {NavLink} from "react-router-dom";
 import {Github} from "../components/AllSvg";
 // import Kapusta from "../assets/Images/Kapysta.png"
 import {motion} from "framer-motion";
-import astronaut from "../assets/Images/spaceman.png";
+// import astronaut from "../assets/Images/spaceman.png";
 
 
 const Box = styled(motion.li)  //для анимации - li -> заменяется на motion
@@ -141,10 +141,10 @@ const Card = (props) => {
 
             <Footer>
                 <Link>
-                    <a href={`${demo}`} target={"_blank"} style={{textDecoration: 'none', color: 'inherit'}}>Visit</a>
+                    <a href={`${demo}`} target={"_blank"} rel="noreferrer" style={{textDecoration: 'none', color: 'inherit'}}>Visit</a>
                 </Link>
                 <Git>
-                    <a href={`${github}`} target={"_blank"}>
+                    <a href={`${github}`} target={"_blank"} rel="noreferrer">
                         <Github width={35} height={35}/>
                     </a>
                 </Git>

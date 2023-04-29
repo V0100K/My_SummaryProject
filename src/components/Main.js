@@ -9,14 +9,14 @@ import styled, {keyframes} from "styled-components";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialLcons";
 import {NavLink} from "react-router-dom";
-import {YinYang} from "./AllSvg";
+// import {YinYang} from "./AllSvg";
 // import load from '../assets/svg/MZig.svg'
 import Info from "./Info";
 import {motion} from "framer-motion";
 import SoundBar from "../subComponents/SoundBar";
 import DownLoadCVBtn from "../subComponents/DownLoadCVBtn";
-import ParticleComponent from "../subComponents/ParticleComponent";
-import myCv from '../data/Malyshko_Vitaliy_juntreFrontEnd.pdf'
+// import ParticleComponent from "../subComponents/ParticleComponent";
+// import myCv from '../data/Malyshko_Vitaliy_juntreFrontEnd.pdf'
 
 
 

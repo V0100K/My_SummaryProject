@@ -2,33 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="290e086e-34b0-4eb9-a141-594a1bd7a10b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/build/Boost.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/IceCream.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/Kapysta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/WebStud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.0510b79e.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/css/main.0510b79e.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.9970534d.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.9970534d.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.9970534d.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/Kapysta.cea6662c43489d8567ab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/Malyshko_Vitaliy_juntreFrontEnd.130ad91d968a3f33fb79.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/fxVE.67923237fff915773320.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/myPhoto.b4015157bfe00e4d4c4a.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/profile-img.5179e446ac1a570ce69b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/spaceman.5ec7fcfa9a803ead726c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/u-said-it-v13-1167.949cee7ea4a6ad9499db.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Images/photo_2023-04-29 12.14.00.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SummaryPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SummaryPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WorkPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/WorkData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/WorkData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/MagicButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/MagicButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/SocialLcons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/SocialLcons.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +52,7 @@
       <workItem from="1682450632597" duration="4148000" />
       <workItem from="1682706731053" duration="33000" />
       <workItem from="1682706784275" duration="14000" />
-      <workItem from="1682711371612" duration="2269000" />
+      <workItem from="1682711371612" duration="3409000" />
     </task>
     <servers />
   </component>

@@ -661,7 +661,7 @@ const SummaryPage = () => {
                 <BigTitle text='SUMMARY' top='35px' left='53%'/>
 
                 <div className="left-column">
-                    <img className="photo" src={me} alt="My Image"/>
+                    <img className="photo" src={me}/>
                     <div className="contacts">
                         <h3>Contacts</h3>
                         {renderContacts()}

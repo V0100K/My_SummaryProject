@@ -2,8 +2,8 @@ import React from 'react';
 import styled, {keyframes, ThemeProvider} from "styled-components";
 import {darkTheme} from "./Themes";
 
-import LogoComponent from "../subComponents/LogoComponent";
-import SocialIcons from "../subComponents/SocialLcons";
+// import LogoComponent from "../subComponents/LogoComponent";
+// import SocialIcons from "../subComponents/SocialLcons";
 import PowerButton from "../subComponents/PowerButton";
 import ParticleComponent from "../subComponents/ParticleComponent";
 

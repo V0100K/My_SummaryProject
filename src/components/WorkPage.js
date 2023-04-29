@@ -126,13 +126,13 @@ import styled, {ThemeProvider} from "styled-components";
 import {darkTheme} from "./Themes";
 import {motion} from "framer-motion";
 
-import LogoComponent from "../subComponents/LogoComponent";
+// import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialLcons";
 import PowerButton from "../subComponents/PowerButton";
 import Card from "../subComponents/Card";
 
 import {Work} from "../data/WorkData";
-import {Cosmos, YinYang, YouTube} from "./AllSvg";
+import {YouTube} from "./AllSvg";
 import BigTitle from "../subComponents/BigTitle";
 import SoundBar from "../subComponents/SoundBar";
 

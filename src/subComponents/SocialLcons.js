@@ -1,6 +1,6 @@
 import React from 'react';
-import {Facebook, Github, Telegram, Twitter, YouTube} from "../components/AllSvg";
-import {NavLink} from "react-router-dom";
+import {Facebook, Github, Telegram,} from "../components/AllSvg";
+// import {NavLink} from "react-router-dom";
 import styled from "styled-components";
 
 import {darkTheme} from '../components/Themes'
@@ -51,7 +51,7 @@ const SocialIcons = (props) => {
 
             <motion.div initial={{transform: 'scale(0)'}} animate={{scale: [0, 1, 1.5, 1]}}
                         transition={{type: 'spring', duration: 1, delay: 1}}>
-                <a href={'https://github.com/V0100K'} style={{color: 'inherit'}} target='_blank' >
+                <a href={'https://github.com/V0100K'} style={{color: 'inherit'}} target='_blank' rel="noreferrer" >
                     <One>
                         <Github with={20} height={20} fill={props.theme === 'dark' ? darkTheme.body : darkTheme.text}/>
                     </One>
@@ -69,7 +69,7 @@ const SocialIcons = (props) => {
 
             <motion.div initial={{transform: 'scale(0)'}} animate={{scale: [0, 1, 1.5, 1]}}
                         transition={{type: 'spring', duration: 1, delay: 1.4}}>
-                <a href={"https://github.com/V0100K"} target={"_blank"} style={{color: 'inherit'}}>
+                <a href={"https://github.com/V0100K"} target={"_blank"} rel="noreferrer" style={{color: 'inherit'}}>
                     <One>
                     <Telegram with={25} height={25} fill={props.theme === 'dark' ? darkTheme.body : darkTheme.text}/>
                     </One>
@@ -78,7 +78,7 @@ const SocialIcons = (props) => {
 
             <motion.div initial={{transform: 'scale(0)'}} animate={{scale: [0, 1, 1.5, 1]}}
                         transition={{type: 'spring', duration: 1, delay: 1.6}}>
-                <a href={"https://github.com/V0100K"} target={"_blank"} style={{color: 'inherit'}}>
+                <a href={"https://github.com/V0100K"} target={"_blank"} rel="noreferrer" style={{color: 'inherit'}}>
                     <One>
                     <Facebook with={20} height={20} fill={props.theme === 'dark' ? darkTheme.body : darkTheme.text}/>
                     </One>

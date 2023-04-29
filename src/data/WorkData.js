@@ -1,5 +1,5 @@
 // TODO: work data
-import Kapysta from '../assets/Images/Kapysta.png'
+// import Kapysta from '../assets/Images/Kapysta.png'
 
 export const Work = [
     {
@@ -44,16 +44,6 @@ export const Work = [
         demo:"https://react-project-money-book.netlify.app",
         github:"https://github.com/V0100K/goIT-react-project"
        
-    },{
-        id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
-        img: "../Kapysta.png",
-
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:""
-        
     },
     
   

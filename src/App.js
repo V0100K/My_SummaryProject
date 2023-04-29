@@ -3,7 +3,7 @@ import {ThemeProvider} from "styled-components";
  import {lightTheme} from "./components/Themes";
 import { Routes, Route, useLocation} from "react-router-dom";
 
-import myCv from '../src/data/Malyshko_Vitaliy_juntreFrontEnd.pdf'
+// import myCv from '../src/data/Malyshko_Vitaliy_juntreFrontEnd.pdf'
 // TODO: Komponents--------
 import Main from "./components/Main";
 import AboutPage from "./components/AboutPage";

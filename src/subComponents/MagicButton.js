@@ -138,23 +138,25 @@ import {motion} from "framer-motion";
 
 const MagicButton = ({children}) => {
     const windowRef = useRef(window);
-    const [isFollowing, setIsFollowing] = useState({x: 0, y: 0});
+    // const [isFollowing, setIsFollowing] = useState({x: 0, y: 0});
     const [mousePosition, setMousePosition] = useState({x: 80, y: 20});
     const [scrollPosition, setScrollPosition] = useState(0);
 
     useEffect(() => {
+        const winCurrent = windowRef.current
         const mousemove = (e) => {
             setMousePosition({x: e.clientX, y: e.clientY});
         };
         const scroll = () => {
-            setScrollPosition(windowRef.current.scrollY);
+            setScrollPosition(winCurrent.scrollY);
         };
         window.addEventListener('mousemove', mousemove);
         windowRef.current.addEventListener('scroll', scroll);
 
         return () => {
             window.removeEventListener('mousemove', mousemove);
-            windowRef.current.removeEventListener('scroll', scroll);
+
+            winCurrent.removeEventListener('scroll', scroll);
         };
     }, []);
 
