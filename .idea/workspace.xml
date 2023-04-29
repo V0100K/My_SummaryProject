@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="290e086e-34b0-4eb9-a141-594a1bd7a10b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.5c0edcd4.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/js/main.5c0edcd4.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SummaryPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SummaryPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WorkPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/WorkData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/WorkData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subComponents/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/Card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subComponents/MagicButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/MagicButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subComponents/SocialLcons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/SocialLcons.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +44,7 @@
       <workItem from="1682450632597" duration="4148000" />
       <workItem from="1682706731053" duration="33000" />
       <workItem from="1682706784275" duration="14000" />
-      <workItem from="1682711371612" duration="3409000" />
+      <workItem from="1682711371612" duration="3752000" />
     </task>
     <servers />
   </component>
