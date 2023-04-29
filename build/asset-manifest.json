@@ -1,20 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.6588a926.css",
-    "main.js": "/static/js/main.0a7f3d14.js",
+    "main.js": "/static/js/main.5c0edcd4.js",
     "static/media/u-said-it-v13-1167.mp3": "/static/media/u-said-it-v13-1167.949cee7ea4a6ad9499db.mp3",
     "static/media/fxVE.gif": "/static/media/fxVE.67923237fff915773320.gif",
-    "static/media/Malyshko_Vitaliy_juntreFrontEnd.pdf": "/static/media/Malyshko_Vitaliy_juntreFrontEnd.130ad91d968a3f33fb79.pdf",
     "static/media/photo_2023-04-29 12.14.00.png": "/static/media/photo_2023-04-29 12.14.00.8839ddfb64da21ae7dd7.png",
-    "static/media/Kapysta.png": "/static/media/Kapysta.cea6662c43489d8567ab.png",
     "static/media/spaceman.png": "/static/media/spaceman.5ec7fcfa9a803ead726c.png",
     "static/media/myPhoto.jpeg": "/static/media/myPhoto.b4015157bfe00e4d4c4a.jpeg",
     "index.html": "/index.html",
     "main.6588a926.css.map": "/static/css/main.6588a926.css.map",
-    "main.0a7f3d14.js.map": "/static/js/main.0a7f3d14.js.map"
+    "main.5c0edcd4.js.map": "/static/js/main.5c0edcd4.js.map"
   },
   "entrypoints": [
     "static/css/main.6588a926.css",
-    "static/js/main.0a7f3d14.js"
+    "static/js/main.5c0edcd4.js"
   ]
 }
