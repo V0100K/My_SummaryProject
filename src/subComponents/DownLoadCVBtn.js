@@ -89,18 +89,32 @@ import {darkTheme} from "../components/Themes";
 
 const Download = styled.button
 `
-  @media only Screen and (max-width: 600px) {
-    margin: 60px auto;
+  @media only Screen and (max-width: 720px) {
+    margin-top: 50px; /* отступ сверху */
+    margin-right: 10px; /* отступ справа */
+    right: 0; /* кнопка будет располагаться справа */
   }
+  display: flex;
 
+  //position: fixed;
+  //text-align: center;
+  //white-space: pre-wrap;
+  //margin: 110px auto;
+  //padding: 5px;
+  //font-size: 14px;
+
+
+  //width: 100px; /* задайте ширину кнопки по вашему выбору */
+  //height: 40px; /* задайте высоту кнопки по вашему выбору */
+  margin: 110px auto;
+  padding: 10px; /* задайте внутренние отступы кнопки по вашему выбору */
+  display: flex;
   position: fixed;
   text-align: center;
   white-space: pre-wrap;
-  margin: 110px auto;
-  padding: 5px;
-  font-size: 14px;
 
-  box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+
+  box-shadow: 0 0 0 0 rgba(61, 161, 232, 0.7);
   border: 1px solid ${props => props.color === 'dark' ? darkTheme.body : darkTheme.text};
   border-radius: 10px;
   background-color: ${props => props.color === 'dark' ? darkTheme.text : darkTheme.body};
@@ -111,7 +125,6 @@ const Download = styled.button
   font-weight: normal;
   font-family: sans-serif;
   color: ${props => props.color === 'dark' ? darkTheme.body : darkTheme.text};
-  
 
 
   /* Comment-out to have the button continue to pulse on mouseover */
@@ -155,7 +168,7 @@ const Download = styled.button
     -webkit-animation: none;
     //background-color: #7b6262;
     border: solid .15em transparent;
-    padding: .25em;
+    //padding: .25em;
     border-radius: 1.375em;
     box-shadow: inset 0 1px 1px rgba(#f7f7f7, .875) /* сверху */,
     inset 0 -1px 1px rgba(#bbb, .75) /* снизу */;

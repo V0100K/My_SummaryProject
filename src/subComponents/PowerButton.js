@@ -9,12 +9,15 @@ import {NavLink} from "react-router-dom";
 const Power = styled.button
     `
       position: fixed;
-      top: 2rem;
+      //top: 2rem;
+      //left: 70vw;
+      top: 5%;
       left: 50%;
-      transform: translate(-50%, 0);
+      margin-right: -50%;
+      transform: translate(0, -50%);
 
       background-color: #63cbea;
-      padding: 0.3rem;
+      padding: 0.35rem;
       border-radius: 50%;
       border: 1px solid #000;
       width: 2.5rem;

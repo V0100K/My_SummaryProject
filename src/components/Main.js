@@ -15,26 +15,60 @@ import Info from "./Info";
 import {motion} from "framer-motion";
 import SoundBar from "../subComponents/SoundBar";
 import DownLoadCVBtn from "../subComponents/DownLoadCVBtn";
+import ParticleComponent from "../subComponents/ParticleComponent";
+
 // import ParticleComponent from "../subComponents/ParticleComponent";
 // import myCv from '../data/Malyshko_Vitaliy_juntreFrontEnd.pdf'
 
+import back from '../assets/Images/eart.mp4'
+import moonImage from '../assets/Images/moon (1).png';
 
+// const MainContainer = styled.div`
+//   background: ${props => props.theme.body}; // проп цвета из app->them->lightTheme->body->bgcolor
+//   width: 100vw;
+//   height: 100vh;
+//   overflow: hidden;
+//
+//   position: relative;
+//
+//   h2, h3, h4, h5, h6 {
+//     font-family: 'Karla', sans-serif;
+//     font-weight: 500;
+//   }
+// `
 
 
 
 const MainContainer = styled.div`
-  background: ${props => props.theme.body}; // проп цвета из app->them->lightTheme->body->bgcolor
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-
   position: relative;
+  //display: flex;
+  justify-content: center;
+  align-items: center;
 
   h2, h3, h4, h5, h6 {
-    font-family: 'Karla', sans-serif;
-    font-weight: 500;
-  }
-`
+         font-family: 'Karla', sans-serif;
+         font-weight: 500;
+       }
+`;
+
+const VideoBackground = styled.video`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+`;
+
+const ContentContainer = styled.div`
+  z-index: 1;
+  text-align: center;
+`;
+
+
 
 const Container = styled.div`
   padding: 2rem;
@@ -70,7 +104,8 @@ const PreLoader = styled.button
       transform: translate(-50%, -50%);
       border: none;
       outline: none;
-      background-color: ${props => props.theme.body};
+      //background-color: ${props => props.theme.body};
+      background: none;
       cursor: pointer;
       //
       display: flex;
@@ -80,12 +115,12 @@ const PreLoader = styled.button
       transition: all 2s ease; // плавность движения
 
       & > :first-child {
-        animation: ${rotate} infinite 20s linear;
+        animation: ${rotate} infinite 70s linear;
       }
 
       & > :last-child {
         color: ${props => props.click ? props.theme.text : props.theme.text};
-        //display: ${props => props.click ? 'none' : 'inline-block'}; // текст загрузчика пропадает при нажатиии
+          //display: ${props => props.click ? 'none' : 'inline-block'}; // текст загрузчика пропадает при нажатиии
         padding-top: 1rem;
         z-index: 1;
 
@@ -119,7 +154,8 @@ const PreLoader = styled.button
         @media only Screen and (max-width: 450px) {
           width: 160px;
           height: 160px;
-        }}
+        }
+      }
     `
 
 
@@ -137,7 +173,7 @@ const SUMMARY = styled(NavLink)
       @media only Screen and (max-width: 450px) {
         right: calc(1rem - 8.0vw);
       }
-      
+
     `
 const WORK = styled(NavLink)
     `
@@ -167,7 +203,7 @@ const BottomBar = styled.div
 
 const ABOUT = styled(NavLink)
     `
-      //color: ${props => props.click ? props.theme.text : props.theme.text}; // изминение цвета ABOUT при клике на прелодер
+        //color: ${props => props.click ? props.theme.text : props.theme.text}; // изминение цвета ABOUT при клике на прелодер
       color: ${props => props.theme.text}; // изминение цвета ABOUT при клике на прелодер
       text-decoration: none;
       z-index: 1;
@@ -175,7 +211,7 @@ const ABOUT = styled(NavLink)
 
 const SKILLS = styled(NavLink)
     `
-      //color: ${props => props.theme.body};
+        //color: ${props => props.theme.body};
       color: ${props => props.click ? props.theme.body : props.theme.text};
 
       text-decoration: none;
@@ -197,6 +233,10 @@ const DarkDiv = styled.div
       transition: height 0.5s ease, width 1s ease 0.5s;
     `
 
+
+
+
+
 const Main = () => {
 
     const [click, setClick] = useState(false);
@@ -205,44 +245,81 @@ const Main = () => {
     const handleClick = () => setClick(!click);
 
 
+
+    // const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+    // const handleVideoLoad = () => {
+    //     setIsVideoLoaded(true);
+    // };
+
+    const [isImageLoaded, setIsImageLoaded] = useState(false);
+
+    const handleImageLoad = () => {
+        setIsImageLoaded(true);
+    };
+
+
     return (
         <MainContainer>
             <DarkDiv click={click}/>
+
+            <VideoBackground autoPlay muted loop >
+                <source src={back} type="video/webm" />
+            </VideoBackground>
+
+
+            <PreLoader click={click}>
+                <img src={require('../assets/Images/moon (1).png')} alt="loading..." onClick={() => handleClick()}
+                     width={click ? 80 : 320} height={click ? 80 : 320}/>
+                <span>click ball</span>
+            </PreLoader>
+
+
+
+            {/*<PreLoader isImageLoaded={isImageLoaded}>*/}
+            {/*    {!isImageLoaded && (*/}
+            {/*        <>*/}
+            {/*            <img src={moonImage} alt="loading..." />*/}
+            {/*            <span>Click ball</span>*/}
+            {/*        </>*/}
+            {/*    )}*/}
+            {/*</PreLoader>*/}
+
+
+
+
             <Container>
-
-                <PreLoader click={click}>
-                                <img src={require('../assets/svg/fxVE.gif')} alt="loading..." onClick={() => handleClick()} width={click ? 80 : 320} height={click ? 80 : 320}/>
-                                <span>click ball</span>
+            {/*<ParticleComponent style='dark'/>*/}
 
 
-                            </PreLoader>
 
                 <LogoComponent theme={click ? 'dark' : 'light '}/> {/*подключение лого*/}
-                <DownLoadCVBtn theme={click ? 'dark' : 'light '} />
+                <DownLoadCVBtn theme={click ? 'dark' : 'light '}/>
                 <SoundBar/>
                 <SocialIcons theme={click ? 'dark' : 'light '}/> {/*подключение иконки*/}
 
                 <Modal active={modalActive} setActive={setModalActive}/>
 
-                <Contact onClick={() => setModalActive(true)}><motion.h3
-                    // появление надписей -------
-                    initial={{
-                        y: -400,
-                        transition: {type: 'spring', duration: 1, delay: 0.5}
-                    }}
-                    animate={{
-                        y: 0,
-                        transition: {type: 'spring', duration: 1, delay: 0.5}
-                    }}
-                    // end ------
+                <Contact onClick={() => setModalActive(true)}>
+                    <motion.h3
+                        // появление надписей -------
+                        initial={{
+                            y: -400,
+                            transition: {type: 'spring', duration: 1, delay: 0.5}
+                        }}
+                        animate={{
+                            y: 0,
+                            transition: {type: 'spring', duration: 1, delay: 0.5}
+                        }}
+                        // end ------
 
-                    // увеличение при наведении
-                    whileHover={{scale: 1.3}}
-                    whileTap={{scale: 0.9}}
+                        // увеличение при наведении
+                        whileHover={{scale: 1.3}}
+                        whileTap={{scale: 0.9}}
 
-                >
-                    Send me
-                </motion.h3></Contact>
+                    >
+                        Send me
+                    </motion.h3>
+                </Contact>
 
                 <SUMMARY to='/summary'>
                     <motion.h2
@@ -256,10 +333,8 @@ const Main = () => {
                         }}
                         whileHover={{scale: 1.3}}
                         whileTap={{scale: 0.9}}
-                        >Summary
+                    >Summary
                     </motion.h2>
-
-
 
 
                 </SUMMARY>
@@ -321,13 +396,13 @@ const Main = () => {
                     </motion.h2>
                 </WORK>
 
-                {/*{click ? <Info click={click}/> : null}*/}
+                {click ? <Info click={click}/> : null}
 
             </Container>
-            {click ? <Info click={click} /> : null}
-
+            {/*{click ? <Info click={click}/> : null}*/}
         </MainContainer>
     );
 };
+
 
 export default Main;

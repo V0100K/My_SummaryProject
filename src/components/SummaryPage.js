@@ -658,7 +658,7 @@ const SummaryPage = () => {
             <PowerButton/>
 
             <div className="resumeWrapper">
-                <BigTitle text='SUMMARY' top='35px' left='53%'/>
+                <BigTitle text='SUMMARY' top='5px' left='50%' font-size='28px'/>
 
                 <div className="left-column">
                     <img className="photo" src={me} alt={''}/>

@@ -135,7 +135,7 @@ import {Work} from "../data/WorkData";
 import {YouTube} from "./AllSvg";
 import BigTitle from "../subComponents/BigTitle";
 import SoundBar from "../subComponents/SoundBar";
-
+import Space from "../subComponents/Space";
 
 
 const Box = styled.div
@@ -188,6 +188,7 @@ const container = {
 // End----
 
 const WorkPage = () => {
+
 
     const ref = useRef(null);
     const yinyang = useRef(null);

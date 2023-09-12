@@ -68,9 +68,27 @@ const Logo = styled.h1
       @media only Screen and (max-width: 960px) {
         font-size: 3em;
       }
-      @media only Screen and (max-width: 730px) {
+      @media only Screen and (max-width: 720px) {
           font-size: 2em;
         }
+      @media only Screen and (max-width: 520px) {
+        font-size: 2.5em;
+
+        .break-at-520 {
+          display: block;
+        }
+        .display-at-520 {
+          display: none;
+        }
+      }
+      @media only screen and (min-width: 521px) {
+        .break-at-520 {
+          display: none;
+        }
+        .display-at-520 {
+          display: inline;
+        }
+      }
        
     `
 
@@ -78,7 +96,13 @@ const Logo = styled.h1
 const LogoComponent = (props) => {
     return (
         <Logo color={props.theme}>
-            Malyshko Vitaliy
+      <span className="break-at-520">
+        Malyshko<br />
+        Vitaliy
+      </span>
+            <span className="display-at-520">
+        Malyshko Vitaliy
+      </span>
         </Logo>
     );
 };

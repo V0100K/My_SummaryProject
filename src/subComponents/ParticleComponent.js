@@ -29,16 +29,14 @@ const Particle = (props) => {
         await loadFull(engine);
     }, []);
 
-    const particlesLoaded = useCallback(async container => {
-        await console.log(container);
-    }, []);
+
 
 
     return (
         <Particles
             id='tsparticles'
             init={particlesInit}
-            Loaded={particlesLoaded}
+
             options={props.theme === 'light' ? configLight : configDark}
 
         />

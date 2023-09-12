@@ -69,7 +69,7 @@ const SocialIcons = (props) => {
 
             <motion.div initial={{transform: 'scale(0)'}} animate={{scale: [0, 1, 1.5, 1]}}
                         transition={{type: 'spring', duration: 1, delay: 1.4}}>
-                <a href={"https://github.com/V0100K"} target={"_blank"} rel="noreferrer" style={{color: 'inherit'}}>
+                <a href={"https://t.me/Vitaliy_Vo100K"} target={"_blank"} rel="noreferrer" style={{color: 'inherit'}}>
                     <One>
                     <Telegram with={25} height={25} fill={props.theme === 'dark' ? darkTheme.body : darkTheme.text}/>
                     </One>
