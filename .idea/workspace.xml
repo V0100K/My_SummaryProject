@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="290e086e-34b0-4eb9-a141-594a1bd7a10b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/Images/My space.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Images/eart.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Images/eart.webm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Images/moon (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Images/pngwing.com (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Images/pngwing.com (3).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Images/pngwing.com.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/1686983256_bogatyr-club-p-kruglaya-planeta-foni-vkontakte-47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/free-png.ru-215.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/free-png.ru-215.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/pngwing.com (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/pngwing.com.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svg/pngwing.com.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subComponents/Space.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/subComponents/background.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/svg/305283-ffffff.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/svg/anchor-solid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SummaryPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SummaryPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WorkPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WorkPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/resume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/particles-config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/particles-config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subComponents/DownLoadCVBtn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/DownLoadCVBtn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subComponents/LogoComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/LogoComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subComponents/ParticleComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/ParticleComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subComponents/PowerButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/PowerButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subComponents/SocialLcons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/subComponents/SocialLcons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/Anchor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/subComponents/background.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +69,8 @@
       <workItem from="1683230870427" duration="5876000" />
       <workItem from="1683628587301" duration="892000" />
       <workItem from="1694185831799" duration="11278000" />
-      <workItem from="1694357633422" duration="10183000" />
+      <workItem from="1694357633422" duration="10859000" />
+      <workItem from="1694689023165" duration="119000" />
     </task>
     <servers />
   </component>

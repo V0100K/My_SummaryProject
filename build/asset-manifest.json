@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6588a926.css",
-    "main.js": "/static/js/main.9bde405a.js",
+    "main.css": "/static/css/main.5b963b7a.css",
+    "main.js": "/static/js/main.e5d2599d.js",
+    "static/media/eart.mp4": "/static/media/eart.a0c4a54746c6544d7099.mp4",
     "static/media/u-said-it-v13-1167.mp3": "/static/media/u-said-it-v13-1167.949cee7ea4a6ad9499db.mp3",
-    "static/media/fxVE.gif": "/static/media/fxVE.67923237fff915773320.gif",
-    "static/media/photo_2023-04-29 12.14.00.png": "/static/media/photo_2023-04-29 12.14.00.8839ddfb64da21ae7dd7.png",
     "static/media/spaceman.png": "/static/media/spaceman.5ec7fcfa9a803ead726c.png",
     "static/media/myPhoto.jpeg": "/static/media/myPhoto.b4015157bfe00e4d4c4a.jpeg",
+    "static/media/moon (1).png": "/static/media/moon (1).f9b72e54012c2f764b75.png",
+    "static/media/photo_2023-04-29 12.14.00.png": "/static/media/photo_2023-04-29 12.14.00.8f0b3d74cbb4cf5960cc.png",
     "index.html": "/index.html",
-    "main.6588a926.css.map": "/static/css/main.6588a926.css.map",
-    "main.9bde405a.js.map": "/static/js/main.9bde405a.js.map"
+    "main.5b963b7a.css.map": "/static/css/main.5b963b7a.css.map",
+    "main.e5d2599d.js.map": "/static/js/main.e5d2599d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6588a926.css",
-    "static/js/main.9bde405a.js"
+    "static/css/main.5b963b7a.css",
+    "static/js/main.e5d2599d.js"
   ]
 }
