@@ -60,10 +60,10 @@ const VideoBackground = styled.video`
   object-fit: cover;
 `;
 
-const ContentContainer = styled.div`
-  z-index: 1;
-  text-align: center;
-`;
+// const ContentContainer = styled.div`
+//   z-index: 1;
+//   text-align: center;
+// `;
 
 
 
@@ -248,11 +248,11 @@ const Main = () => {
     //     setIsVideoLoaded(true);
     // };
 
-    const [isImageLoaded, setIsImageLoaded] = useState(false);
-
-    const handleImageLoad = () => {
-        setIsImageLoaded(true);
-    };
+    // const [isImageLoaded, setIsImageLoaded] = useState(false);
+    //
+    // const handleImageLoad = () => {
+    //     setIsImageLoaded(true);
+    // };
 
 
     return (
