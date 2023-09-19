@@ -15,13 +15,10 @@ import Info from "./Info";
 import {motion} from "framer-motion";
 import SoundBar from "../subComponents/SoundBar";
 import DownLoadCVBtn from "../subComponents/DownLoadCVBtn";
-import ParticleComponent from "../subComponents/ParticleComponent";
 
-// import ParticleComponent from "../subComponents/ParticleComponent";
-// import myCv from '../data/Malyshko_Vitaliy_juntreFrontEnd.pdf'
 
 import back from '../assets/Images/eart.mp4'
-import moonImage from '../assets/Images/moon (1).png';
+
 
 // const MainContainer = styled.div`
 //   background: ${props => props.theme.body}; // проп цвета из app->them->lightTheme->body->bgcolor
