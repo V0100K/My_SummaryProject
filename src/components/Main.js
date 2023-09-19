@@ -16,9 +16,8 @@ import {motion} from "framer-motion";
 import SoundBar from "../subComponents/SoundBar";
 import DownLoadCVBtn from "../subComponents/DownLoadCVBtn";
 
-
-import back from '../assets/Images/eart.mp4'
-
+import desktopVideo from '../assets/Images/eart.mp4'
+import mobileVideo from '../assets/Images/eart mobile.mp4'
 
 // const MainContainer = styled.div`
 //   background: ${props => props.theme.body}; // проп цвета из app->them->lightTheme->body->bgcolor
@@ -242,6 +241,7 @@ const Main = () => {
     const handleClick = () => setClick(!click);
 
 
+    const isMobileResolution = window.matchMedia("(max-width: 720px)").matches;
 
     // const [isVideoLoaded, setIsVideoLoaded] = useState(false);
     // const handleVideoLoad = () => {
@@ -259,9 +259,15 @@ const Main = () => {
         <MainContainer>
             <DarkDiv click={click}/>
 
-            <VideoBackground autoPlay muted loop >
-                <source src={back} type="video/webm" />
-            </VideoBackground>
+            {isMobileResolution ? (
+                <VideoBackground autoPlay muted loop>
+                    <source src={mobileVideo} type="video/webm" />
+                </VideoBackground>
+            ) : (
+                <VideoBackground autoPlay muted loop>
+                    <source src={desktopVideo} type="video/webm" />
+                </VideoBackground>
+            )}
 
 
             <PreLoader click={click}>
